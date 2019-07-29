@@ -73,6 +73,7 @@ body {
   width: 90vw;
   height: 90vh;
   margin-left: 10px;
+}
 
 .contact-page {
   background-color: black;
@@ -109,7 +110,7 @@ display: block;
 
 
 .App-header {
-  background-color: #black;
+  background-color: black;
   min-height: 100vh;
   /* display: flex;
   flex-direction: column;
@@ -123,8 +124,6 @@ display: block;
   .address-subway3 {
     margin-right: 245px;
   }
- 
-
 }
 
 .hero {
