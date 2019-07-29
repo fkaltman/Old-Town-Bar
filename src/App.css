@@ -1,6 +1,44 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
 }
+
+.abouth3 {
+  width: 79px;
+  height: 21px;
+  font-family: Baskerville;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.18px;
+  color: white;
+}
+
+.aboutp {
+  margin: 7px;
+  width: 299px;
+  height: 483px;
+  font-family: SFProText;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.14px;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+}
+
+.Reviews {
+  background-image: url('../src/assets/darkimage.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+.Reviewstext {
+  text-align: left;
+  width: 90vw;
+  height: 90vh;
+  margin-left: 10px;
 
 .contact-page {
   background-color: black;
@@ -51,6 +89,12 @@ display: block;
   .address-subway3 {
     margin-right: 245px;
   }
-  
+ 
 
 }
+
+.hero {
+height: 100%;
+width: 100%;
+}
+
