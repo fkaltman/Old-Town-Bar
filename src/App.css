@@ -1,3 +1,37 @@
+
+.nav-container{
+  color: white;
+ display: flex; 
+  height: 92px;
+}
+.nav-title{
+  margin: auto;
+  width: 507px;
+  height: 40px;
+  font-family: Baskerville;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+.link-container{
+  margin: auto;
+}
+.nav-link{
+  margin: 0px 40px;
+  width: 58px;
+  height: 24px;
+  font-family: SFProText;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
 body {
   background-color: black;
 }
