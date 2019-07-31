@@ -3,7 +3,8 @@ import darkimage from '../assets/darkimage.jpg';
 
 function Reviews() {
   return (
-    <div className="Reviews">
+    <div className="Reviews" id="reviews-scroll">
+      <a href="reviews-scroll"></a>
       <div className="Reviewstext">
       <h4>Reviews</h4>
       <p>“The old-fashioned saloon still serves a noble function in the national life. Manhattan is blessed with some fine ones, but the jewel in the crown is The Old Town.”

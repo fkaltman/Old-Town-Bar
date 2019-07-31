@@ -1,8 +1,11 @@
 
 .nav-container{
+  position: fixed;
   color: white;
- display: flex; 
+  display: flex; 
   height: 92px;
+  width: 100%;
+  background-color: black;
 }
 .nav-title{
   margin: auto;
@@ -148,5 +151,9 @@ display: block;
 .hero {
 height: 100%;
 width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
