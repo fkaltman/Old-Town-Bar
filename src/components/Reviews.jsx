@@ -3,7 +3,8 @@ import barinside from '../assets/barinside.jpg';
 
 function Reviews() {
   return (
-    <div className="reviews">
+    <div className="reviews" id="reviews-scroll">
+      <a href="reviews-scroll"></a>
       <img className="reviewsimg" src={barinside} alt="bar"/>
       <div className="reviewstext">
       <h4>Reviews</h4>
