@@ -1,7 +1,10 @@
-.nav-container {
+.nav-container{
+  position: fixed;
   color: white;
-  display: flex;
+  display: flex; 
   height: 92px;
+  width: 100%;
+  background-color: black;
 }
 
 .nav-title {
@@ -365,5 +368,9 @@ body {
   height: auto;
   opacity: 0.53;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* --------------END HISTORY SECTION------------ */
+

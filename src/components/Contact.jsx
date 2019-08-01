@@ -8,7 +8,8 @@ import subway8 from "../assets/subway8.png"
 export default function Contact () {
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id="contact-us">
+      <a href="contact-us"></a>
       <img className="big-contact" src={bigcontact} alt="Contact"/>
       <img className="map" src={googlemap} alt="Google Map" />
       <img className="address" src={address} alt="Address" />
