@@ -41,50 +41,51 @@ body {
   background-color: black;
 }
 
+.hero {
+  
+}
+
 .abouth3 {
-  width: 79px;
-  height: 21px;
   font-family: Baskerville;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 25px;
   letter-spacing: 0.18px;
   color: white;
+  /* display: grid;
+  grid-template-columns: repeat(2, 2fr); */
 }
 
 .aboutp {
-  margin: 7px;
-  width: 299px;
-  height: 483px;
   font-family: SFProText;
   font-size: 18px;
-  font-weight: normal;
   letter-spacing: 0.14px;
   color: white;
-  background-color: black;
   margin-left: 10px;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: auto 1fr 3fr;
-  grid-template-areas:
+  grid-template-columns: 2fr;
+  /* grid-template-rows: auto 1fr 3fr; */
+  /* grid-template-areas:
   "title title title"
-  "main header header";
+  "main header header"; */
 
 }
 
-.Reviews {
-  background-image: url('../src/assets/darkimage.jpg');
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+.reviews {
+    position: relative;
+    text-align: center;
+    height: 80%;
 }
 
-.Reviewstext {
-  text-align: left;
-  width: 90vw;
-  height: 90vh;
+.reviewstext {
+  /* margin-right: 60%;
+  /* max-height: 50%; */
   margin-left: 10px;
+  color:white;
+  font-size: 18px;
+  position: absolute;
+  top: 28px;
+  right: 66vw; 
+  text-align: left;
+  max-height: 20%;
 }
 
 .contact-page {
@@ -150,10 +151,7 @@ body {
 
 }
 
-.hero {
-  height: 100%;
-  width: 100%;
-}
+
 
 /* ----------HISTORY SECTION---------- */
 
