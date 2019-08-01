@@ -10,7 +10,8 @@ import inside from "../assets/inside.png";
 
 function History() {
   return (
-    <div className="history">
+    <div className="history" id="hstry">
+      <a href="hstry"></a>
       <span className="history-title">History</span>
       <div className="bar-text">
         {" "}
@@ -114,7 +115,7 @@ function History() {
         drink in the Old Town.
       </div>
       <img src = {inside} className = 'new-york-image'/> */}
-      
+
     </div>
   );
 }
