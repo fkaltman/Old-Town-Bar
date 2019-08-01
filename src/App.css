@@ -1,10 +1,10 @@
-
-.nav-container{
+.nav-container {
   color: white;
- display: flex; 
+  display: flex;
   height: 92px;
 }
-.nav-title{
+
+.nav-title {
   margin: auto;
   width: 507px;
   height: 40px;
@@ -16,10 +16,12 @@
   line-height: normal;
   letter-spacing: 0.36px;
 }
-.link-container{
+
+.link-container {
   margin: auto;
 }
-.nav-link{
+
+.nav-link {
   margin: 0px 40px;
   width: 58px;
   height: 24px;
@@ -65,7 +67,7 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  color:white;
+  color: white;
 }
 
 .Reviewstext {
@@ -84,14 +86,14 @@ body {
 }
 
 .big-contact {
-width: 85vw;
-margin-top: 40px;
-display: block;
+  width: 85vw;
+  margin-top: 40px;
+  display: block;
 }
 
 .map {
-width: 80vw;
-display: block;
+  width: 80vw;
+  display: block;
 }
 
 .address-subway2 {
@@ -127,7 +129,222 @@ display: block;
 }
 
 .hero {
-height: 100%;
-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
+/* ----------HISTORY SECTION---------- */
+
+.history-div {
+  position: relative;
+  min-width: 375px;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.history-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
+  /* border: 1px solid red */
+}
+
+.bar-history {
+  position: absolute;
+  z-index: 1;
+  top: 1.726%;
+  left: 5.06666%;
+  width: 17.8666%;
+  height: 21px;
+  font-family: Baskerville;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  color: white;
+}
+
+.bar-text-title {
+  position: absolute;
+  z-index: 1;
+  top: 12.947%;
+  left: 8%;
+  width: 84.26666%;
+  min-width: 316px;
+  height: 72.75%;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.store-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
+}
+
+.profile-image {
+  position: absolute;
+  z-index: 2;
+  top: 38.943%;
+  left: 22.52%;
+  /* bottom: 29.607%; */
+  max-width: 54.4%;
+  max-height: 68.2666%;
+}
+
+.our-founder-title {
+  z-index: 2;
+  position: absolute;
+  top: 13.02%;
+  left: 8.31%;
+  min-width: 84.2666%;
+  max-width: 84.2666%;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+}
+
+.dining-room {
+  position: absolute;
+  opacity: 0.53;
+  min-height: 131px;
+  height: 16.111%;
+  width: 100%;
+  top: 0;
+}
+
+.literary-history-div {
+  min-height: 636px;
+  min-width: 316px;
+  height: 78.13%;
+  width: 84.26%;
+  z-index: 2;
+  top: 15.498%;
+  left: 8%;
+  position: absolute;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+}
+
+.blank-space {
+  min-height: 814px;
+  background-color: black;
+}
+
+.old-town-open {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
+}
+
+.media-appearances-div {
+  position: absolute;
+  height: 62.407%;
+  width: 84.2666%;
+  min-height: 508px;
+  min-width: 316px;
+  left: 8%;
+  top:13.02%;
+  bottom:24.447%;
+  z-index: 2;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+
+}
+
+.upstairs-div{
+  position: absolute;
+  z-index:2;
+  top:13.144%;
+  left: 8%;
+  width:84.266%;
+  min-width: 316px;
+  height: 33.04%;
+  min-height: 269px;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+}
+
+.upstairs-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
+}
+
+.new-york-div {
+  position: absolute;
+  z-index: 2;
+  min-width: 316px;
+  width: 84.266%;
+  min-height: 636px;
+  height:78.13%;
+  top: 12.899%;
+  left:8%;
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.14px;
+  color: white;
+}
+
+.new-york-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
+}
+
+/* --------------END HISTORY SECTION------------ */
