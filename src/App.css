@@ -106,7 +106,7 @@ body {
 .contact {
   font-family: SFProText;
   color: white;
-  font-size: 8em;
+  font-size: 2em;
   font-weight: bold;
   justify-content: left;
   padding-top: 5vh;
@@ -119,6 +119,8 @@ body {
 
 .address {
   margin-top: 4vh;
+  width: 35%;
+  /* display:inline; */
   /* flex-direction: row; */
 }
 
@@ -342,3 +344,21 @@ html{
 
 /* --------------END HISTORY SECTION------------ */
 
+@media (max-width: 600px)  {
+  
+  .map {
+    display: block;
+    width: 90%;
+    padding-left: 10px;
+  }
+
+  .address {
+    width: 70%;
+    padding-bottom: 20px;
+  }
+
+  contact-page {
+    font-size: 10px;
+  }
+
+}

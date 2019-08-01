@@ -18,7 +18,7 @@ function History() {
         <span className="bold">BAR HISTORY</span>
         <br />
         <br />
-        The Old Town has been serving since 1892. Interestingly, a twin bar was
+        {/* The Old Town has been serving since 1892. Interestingly, a twin bar was
         constructed on 19th Street in the same year, but it was later dismantled
         and moved to Massachusetts. During Prohibition, the Old Town was a
         speak-easy under the aegis of Tammany Hall, then on 17th Street. For
@@ -28,7 +28,7 @@ function History() {
         functioning as a lunch counter. The tin ceilings are 16 feet high, there
         is 258 square feet of bevel edged plate mirror. The giant urinals, a
         historic icon themselves of sorts, were made in Hinsdale in 1910. The
-        dumbwaiters are New York’s oldest active restaurant conveyors.
+        dumbwaiters are New York’s oldest active restaurant conveyors. */}
       </div>
       <img
         src={historyImage}
