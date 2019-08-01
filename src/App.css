@@ -1,4 +1,5 @@
 .nav-container{
+  z-index: 10;
   position: fixed;
   color: white;
   display: flex; 
@@ -41,9 +42,7 @@ body {
   background-color: black;
 }
 
-.hero {
-  
-}
+
 
 .abouth3 {
   font-family: Baskerville;
@@ -73,6 +72,10 @@ body {
     position: relative;
     text-align: center;
     height: 80%;
+}
+
+.reviewsimg {
+  z-index: -1;
 }
 
 .reviewstext {
