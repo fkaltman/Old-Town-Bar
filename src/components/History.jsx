@@ -10,9 +10,9 @@ import inside from "../assets/inside.png";
 
 function History() {
   return (
-    <div className="history-div">
-      <span className="bar-history">History</span>
-      <div className="bar-text-title">
+    <div className="history">
+      <span className="history-title">History</span>
+      <div className="bar-text">
         {" "}
         <span className="bold">BAR HISTORY</span>
         <br />
@@ -35,7 +35,7 @@ function History() {
         alt="a view of the Old Town at night"
       />
 
-      {/* <div className="our-founder-title">
+      {/* <div className="our-founder-text">
         <span className="bold">OUR FOUNDER</span>
         <br />
         <br />
@@ -46,7 +46,7 @@ function History() {
       <img src={profile} className="profile-image" /> */}
 
       {/* <div className="blank-space">
-        <div className="literary-history-div">
+        <div className="literary-history-text">
           <span className="bold">LITERARY LEGACY</span>
           <br />
           <br />
@@ -69,7 +69,7 @@ function History() {
         <img src={diningRoom} className="dining-room" />
       </div> */}
 
-      {/* <div className="media-appearances-div">
+      {/* <div className="media-appearances-text">
         <span className="bold">MEDIA APPEARANCES</span>
         <br />
         <br />
@@ -86,7 +86,7 @@ function History() {
       </div>
       <img src={oldTownOpen} className="old-town-open" /> */}
 
-      {/* <div className="upstairs-div">
+      {/* <div className="upstairs-text">
         <span className="bold">THE UPSTAIRS</span>
         <br />
         <br />
@@ -97,7 +97,7 @@ function History() {
       </div>
       <img src={upstairs} className="upstairs-image" /> */}
 
-      {/* <div className="new-york-div">
+      {/* <div className="new-york-text">
         <span className="bold">A NEW YORK PLACE</span>
         <br />
         <br />
