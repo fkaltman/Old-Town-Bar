@@ -42,6 +42,14 @@ body {
   background-color: black;
 }
 
+#hero {
+  height: 650px;
+  background: url('./assets/hero.jpg');
+  /* background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
 
 
 .abouth3 {
