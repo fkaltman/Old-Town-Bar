@@ -6,7 +6,8 @@ import address from "../assets/address.png"
 export default function Contact() {
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id="contact-us">
+      <a href="contact-us"></a>
       <h2 className="contact">Contact</h2>
       <div className="map-and-address">
         <img className="map" src={googlemap} alt="Google Map" />
