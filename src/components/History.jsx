@@ -36,7 +36,7 @@ function History() {
         alt="a view of the Old Town at night"
       />
 
-      {/* <div className="our-founder-text">
+      <div className="our-founder-text">
         <span className="bold">OUR FOUNDER</span>
         <br />
         <br />
@@ -44,9 +44,9 @@ function History() {
         Observer. https://observer.com/2007/02/tears-at-the-old-town/
       </div>
       <img src={store} className="store-image" />
-      <img src={profile} className="profile-image" /> */}
+      <img src={profile} className="profile-image" />
 
-      {/* <div className="blank-space">
+      <div className="blank-space">
         <div className="literary-history-text">
           <span className="bold">LITERARY LEGACY</span>
           <br />
@@ -68,9 +68,9 @@ function History() {
           McEvoy’s ‘Our Lady of Greenwich Village’.
         </div>
         <img src={diningRoom} className="dining-room" />
-      </div> */}
+      </div>
 
-      {/* <div className="media-appearances-text">
+      <div className="media-appearances-text">
         <span className="bold">MEDIA APPEARANCES</span>
         <br />
         <br />
@@ -85,9 +85,9 @@ function History() {
         glided thorugh to open the ‘David Letterman Show’ every night. Even
         Madonna strutted the length of the bar in ger ‘Bad Girl’ video.
       </div>
-      <img src={oldTownOpen} className="old-town-open" /> */}
+      <img src={oldTownOpen} className="old-town-open" />
 
-      {/* <div className="upstairs-text">
+      <div className="upstairs-text">
         <span className="bold">THE UPSTAIRS</span>
         <br />
         <br />
@@ -96,9 +96,9 @@ function History() {
         private parties and other functions, this century old room provides a
         quiet alternative to the first floor activities.
       </div>
-      <img src={upstairs} className="upstairs-image" /> */}
+      <img src={upstairs} className="upstairs-image" />
 
-      {/* <div className="new-york-text">
+      <div className="new-york-text">
         <span className="bold">A NEW YORK PLACE</span>
         <br />
         <br />
@@ -114,7 +114,7 @@ function History() {
         history, its politics, its people. For a full taste of New York, come
         drink in the Old Town.
       </div>
-      <img src = {inside} className = 'new-york-image'/> */}
+      <img src = {inside} className = 'new-york-image'/>
 
     </div>
   );
