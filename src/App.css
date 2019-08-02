@@ -221,12 +221,12 @@ body {
 }
 
 .dining-room {
-  position: absolute;
-  opacity: 0.53;
-  min-height: 131px;
-  height: 16.111%;
-  width: 100%;
+  position: relative;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.53;
 }
 
 .literary-history-text {
