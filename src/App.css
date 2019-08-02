@@ -45,8 +45,6 @@ body {
   background-color: black;
 }
 
-
-
 .abouth3 {
   font-family: Baskerville;
   font-size: 25px;
@@ -113,15 +111,15 @@ body {
 }
 
 .map {
- width: 65%;
+ width: 45%;
  margin-top: 4vh;
+ padding-left: 40px;
 }
 
 .address {
   margin-top: 4vh;
   width: 35%;
-  /* display:inline; */
-  /* flex-direction: row; */
+  margin-left: 30px;
 }
 
 
@@ -341,7 +339,12 @@ body {
 html{
   scroll-behavior: smooth;
 }
-
+a{
+  color:white;
+}
+a:hover{
+  color:gray;
+}
 /* --------------END HISTORY SECTION------------ */
 
 @media (max-width: 600px)  {
