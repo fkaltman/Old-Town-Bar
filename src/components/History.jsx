@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import historyImage from "../assets/historyImage.png";
+import historyImage from "../assets/history-image.png";
 import store from "../assets/store-mobile.png";
 import profile from "../assets/profile.png";
 import diningRoom from "../assets/diningroom-mobile.png";
@@ -132,29 +132,32 @@ function History() {
   return (
     <div className="history" id="hstry">
       <a href="hstry"></a>
+      
       <span className="history-title">History</span>
-      <div className="bar-text">
+      <div className = 'bar-text-div'>
         {" "}
-        <span className="bold">BAR HISTORY</span>
+        <span className="bar-text"><strong>BAR HISTORY</strong>
         <br />
         <br />
         The Old Town has been serving since 1892. Interestingly, a twin bar was
-        constructed on 19th Street in the same year, but it was later dismantled
-        and moved to Massachusetts. During Prohibition, the Old Town was a
-        speak-easy under the aegis of Tammany Hall, then on 17th Street. For
-        perhaps the first half of the restaurant’s existence, the menu was of
-        German influence. Virtually the entire establishment is original: the
-        mahogany and marble bar is 55 feet long, the marble portion formerly
-        functioning as a lunch counter. The tin ceilings are 16 feet high, there
-        is 258 square feet of bevel edged plate mirror. The giant urinals, a
-        historic icon themselves of sorts, were made in Hinsdale in 1910. The
-        dumbwaiters are New York’s oldest active restaurant conveyors.
+          constructed on 19th Street in the same year, but it was later dismantled
+          and moved to Massachusetts. During Prohibition, the Old Town was a
+          speak-easy under the aegis of Tammany Hall, then on 17th Street. For
+          perhaps the first half of the restaurant’s existence, the menu was of
+          German influence. Virtually the entire establishment is original: the
+          mahogany and marble bar is 55 feet long, the marble portion formerly
+          functioning as a lunch counter. The tin ceilings are 16 feet high, there
+          is 258 square feet of bevel edged plate mirror. The giant urinals, a
+          historic icon themselves of sorts, were made in Hinsdale in 1910. The
+          dumbwaiters are New York’s oldest active restaurant conveyors.
+          </span>  
       </div>
       <img
         src={historyImage}
         className="history-image"
         alt="a view of the Old Town at night"
-      />
+          />
+          
     </div>
     
   );

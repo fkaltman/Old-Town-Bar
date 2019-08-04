@@ -136,15 +136,60 @@ body {
 
 /* ----------HISTORY SECTION---------- */
 
-/* .history {
+ .history {
   position: relative;
-  min-width: 375px;
-  max-width: 100%;
-  height: auto;
+  min-height: 970px; 
+ opacity: 0.88;
   
 }
 
 .history-image {
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.history-title {
+  position: absolute;
+  left: 7.7%;
+  top: 4.84%;
+  color: white;
+  z-index: 1;
+  font-family: Baskerville;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.31px;
+}
+
+.bar-text-div {
+  position: absolute;
+  top: 20.5%;
+  left: 11%;
+  width:100%;
+  background-color: #070503;
+}
+
+.bar-text {
+  position: absolute;
+  width: 45.76%;
+  top: 20.5%;
+  right: 7.43%;
+  font-family: SFProText;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  color:white;
+}
+
+/* .history-image {
   position: relative;
   top: 0;
   left: 0;
@@ -346,7 +391,7 @@ body {
   width: 100%;
   height: auto;
   opacity: 0.53;
-} */
+} */ 
 html{
   scroll-behavior: smooth;
 }
@@ -359,6 +404,19 @@ a:hover{
 /* --------------END HISTORY SECTION------------ */
 
 @media (max-width: 600px)  {
+  .history-title {
+   left: 5.06%;
+  }
+  .history-image {
+    opacity: 0.53;
+    border: 1px solid white;
+  }
+
+  .bar-text-div {
+    top: 12.45%;
+   left: -28%;
+    
+  }
   
   .map {
     display: block;
@@ -375,4 +433,32 @@ a:hover{
     font-size: 10px;
   }
 
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+  .bar-text-div {
+   /* display: none; */
+   top: 20%;
+   left: 11%;
+ 
+  }
+
+  .bar-text {
+    width:35%;
+    top: 20%;
+    height: 400px;
+    
+  }
+
+  .history-image {
+    width: auto;
+    /* opacity: 0.53; */
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .bar-text-div {
+    margin-left: 50px;
+    z-index: 2;
+  }
 }
