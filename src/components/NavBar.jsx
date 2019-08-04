@@ -16,7 +16,7 @@ export default class Navigation extends React.Component{
           <a className="nav-link" href='#about-us' >About us</a>
           <a className="nav-link" href="#hstry" >History</a>
           <a className="nav-link" href="menu" >Menu</a>
-          <a className="nav-link" href="#reviews-scroll" >Reviews</a>
+          {/* <a className="nav-link" href="#reviews-scroll" >Reviews</a> */}
           <a className="nav-link" href="#contact-us"  >Contact Us</a>
         </div>
       </div>

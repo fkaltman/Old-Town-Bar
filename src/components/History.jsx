@@ -31,7 +31,7 @@ const display = (
   </div>
   <img
     src={historyImage}
-    className="history-image"
+    className="history-image history-image-desktop"
     alt="a view of the Old Town at night"
   />
     </div>

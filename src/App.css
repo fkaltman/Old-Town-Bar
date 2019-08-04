@@ -45,6 +45,15 @@ body {
   background-color: black;
 }
 
+#hero {
+  height: 650px;
+  background: url('./assets/hero.jpg');
+  /* background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
 
 
 .abouth3 {
@@ -106,20 +115,22 @@ body {
 .contact {
   font-family: SFProText;
   color: white;
-  font-size: 8em;
+  font-size: 2em;
   font-weight: bold;
   justify-content: left;
   padding-top: 5vh;
 }
 
 .map {
- width: 65%;
+ width: 45%;
  margin-top: 4vh;
+ padding-left: 40px;
 }
 
 .address {
   margin-top: 4vh;
-  /* flex-direction: row; */
+  width: 35%;
+  margin-left: 30px;
 }
 
 
@@ -339,5 +350,29 @@ body {
 html{
   scroll-behavior: smooth;
 }
+a{
+  color:white;
+}
+a:hover{
+  color:gray;
+}
 /* --------------END HISTORY SECTION------------ */
 
+@media (max-width: 600px)  {
+  
+  .map {
+    display: block;
+    width: 90%;
+    padding-left: 10px;
+  }
+
+  .address {
+    width: 70%;
+    padding-bottom: 20px;
+  }
+
+  contact-page {
+    font-size: 10px;
+  }
+
+}
