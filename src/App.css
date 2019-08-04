@@ -1,15 +1,22 @@
+a{
+  color:white;
+}
+a:hover{
+  opacity: .65;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
 .nav-container{
   z-index: 10;
   position: fixed;
   color: white;
   display: flex; 
-  height: 92px;
+  height: 60px;
   width: 100%;
   background-color: black;
 }
 
 .nav-title {
-  margin: auto;
+  margin: 10px 483px 10px 25px;
   width: 507px;
   height: 40px;
   font-family: Baskerville;
@@ -25,7 +32,7 @@
 }
 
 .link-container {
-  margin: auto;
+  margin: 20px;
 }
 
 .nav-link {
