@@ -10,7 +10,7 @@
 
 .nav-title {
   margin: auto;
-  width: 507px;
+  width: 100%;
   height: 40px;
   font-family: Baskerville;
   font-size: 35px;
@@ -125,7 +125,7 @@ body {
 
 /* ----------HISTORY SECTION---------- */
 
-.history {
+/* .history {
   position: relative;
   min-width: 375px;
   max-width: 100%;
@@ -140,7 +140,7 @@ body {
   width: 100%;
   height: auto;
   opacity: 0.53;
-  /* border: 1px solid red */
+  border: 1px solid red
 }
 
 .history-title {
@@ -196,7 +196,7 @@ body {
   z-index: 2;
   top: 38.943%;
   left: 22.52%;
-  /* bottom: 29.607%; */
+  bottom: 29.607%;
   max-width: 54.4%;
   max-height: 68.2666%;
 }
@@ -335,10 +335,9 @@ body {
   width: 100%;
   height: auto;
   opacity: 0.53;
-}
+} */
 html{
   scroll-behavior: smooth;
 }
-
 /* --------------END HISTORY SECTION------------ */
 
