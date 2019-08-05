@@ -1,8 +1,11 @@
-/* header */
+
 
 .header {
+  font-family: Baskerville;
+  font-size: 18px;
+  font-weight: bold;
   background-color: black;
-  position: fixed;
+  display: flex;
   width: 100%;
   z-index: 3;
 }
@@ -16,8 +19,8 @@
 }
 
 .header li a {
-  display: block;
-  padding: 20px 20px;
+  display: inline-flex;
+  padding: 0px 20px;
   text-decoration: none;
 }
 
@@ -34,28 +37,29 @@
   text-decoration: none;
 }
 
+
 /* menu */
 
 .header .menu {
   clear: both;
-  max-height: 0;
   transition: max-height .2s ease-out;
+  display: inline-flex;
+  margin: auto 0 auto auto;
 }
 
 /* menu icon */
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
-  float: left;
+  display: none;
   padding: 28px 20px;
   position: relative;
   user-select: none;
 }
 
 .header .menu-icon .navicon {
-  background: #333;
-  display: block;
+  background: white;
+  display: none;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
@@ -64,9 +68,9 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: white;
   content: '';
-  display: block;
+  display: none;
   height: 100%;
   position: absolute;
   transition: all .2s ease-out;
@@ -88,7 +92,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  display: block;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -106,28 +110,6 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
-}
-
-/* 48em = 768px */
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-  /* .header .logo{
-    float: right;
-  } */
 }
 
 
@@ -484,6 +466,11 @@ body {
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html, body{
+  box-sizing: border-box;
 }
 
 /* --------------END HISTORY SECTION------------ */
@@ -504,5 +491,41 @@ html{
   contact-page {
     font-size: 10px;
   }
+
+}
+
+@media (max-width: 420px) {
+
+  .header .menu {
+    display: none;
+  }
+
+  .header{
+    max-width: 420px;
+    display: block;
+  }
+
+  .header .menu-icon .navicon {
+    display: block;
+    transition: all .2s ease-out;
+    -webkit-animation: slide-down .3s ease-out;
+    -moz-animation: slide-down .3s ease-out;
+  }
+
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+      display: block;
+      transition: all .2s ease-out;
+  }
+
+  .header .menu-icon {
+    display: inline-block;
+  }
+  .header .logo{
+    float: right;
+    font-size: 1.2em;
+    margin: 7px 21px 9px 0px;
+  }
+  
 
 }
