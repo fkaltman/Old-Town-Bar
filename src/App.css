@@ -230,7 +230,17 @@ body {
   text-align: left;
   max-height: 5%;
 }
-
+.reviewstext > p {
+  font-family: SFProText;
+  font-size: 1.6em;
+  margin: 100px 45px;
+  letter-spacing: 1.31px;
+}
+.reviewstext > h4 {
+  font-family: SFProText;
+  font-size: 2em;
+  margin: 0 30px;
+}
 .contact-page {
   background-color: #060403;
   padding: 5vw;
