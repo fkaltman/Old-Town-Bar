@@ -83,7 +83,7 @@ body {
 .reviews {
     position: relative;
     text-align: left;
-    height: 70%;
+    height: auto;
 }
 
 .reviewsimg {
