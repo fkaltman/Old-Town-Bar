@@ -488,4 +488,30 @@ a:hover{
   }
 }
 
-@media (min-width: 375px)
+@media (min-width: 375px) and (max-width: 600px) {
+
+ 
+  .bar-text {
+    top: 10%;
+    max-height: 75px;
+  }
+
+  .bar-text-div {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 580px) {
+  .bar-history-title {
+    display: none;
+  }
+
+  .bar-text-div {
+    top: 5%;
+  }
+
+  .bar-text {
+    max-height: 75px;
+
+  }
+}
