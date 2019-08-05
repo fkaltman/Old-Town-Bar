@@ -171,6 +171,15 @@ body {
   background-color: black;
 }
 
+#hero {
+  height: 650px;
+  background: url('./assets/hero.jpg');
+  /* background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
 
 
 .abouth3 {
@@ -199,25 +208,27 @@ body {
 
 .reviews {
     position: relative;
-    text-align: center;
-    height: 80%;
+    text-align: left;
+    height: 70%;
 }
 
 .reviewsimg {
   z-index: -1;
+  /* width: 100%; */
+  /* height: 60% */
 }
 
 .reviewstext {
   /* margin-right: 60%;
   /* max-height: 50%; */
-  margin-left: 10px;
+  margin-left: 30px;
   color:white;
-  font-size: 18px;
+  font-size: 12px;
   position: absolute;
   top: 28px;
   right: 66vw; 
   text-align: left;
-  max-height: 20%;
+  max-height: 5%;
 }
 
 .contact-page {
@@ -239,36 +250,85 @@ body {
 }
 
 .map {
- width: 65%;
+ width: 45%;
  margin-top: 4vh;
+ padding-left: 40px;
 }
 
 .address {
   margin-top: 4vh;
   width: 35%;
-  /* display:inline; */
-  /* flex-direction: row; */
+  margin-left: 30px;
 }
 
 
 /* ----------HISTORY SECTION---------- */
 
-.history {
+ .history {
   position: relative;
-  min-width: 375px;
-  max-width: 100%;
-  height: auto;
+  min-height: 970px; 
+ opacity: 0.88;
   
 }
 
 .history-image {
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.history-title {
+  position: absolute;
+  left: 7.7%;
+  top: 4.84%;
+  color: white;
+  z-index: 1;
+  font-family: Baskerville;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.31px;
+}
+
+.bar-text-div {
+  position: absolute;
+  top: 20.5%;
+  left: 11%;
+  width:80%;
+  background-color: #070503;
+}
+
+img {
+  width: 100%;
+}
+
+.bar-text {
+  position: absolute;
+  width: 45.76%;
+  top: 20.5%;
+  right: 7.43%;
+  font-family: SFProText;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  color:white;
+}
+
+/* .history-image {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
   opacity: 0.53;
-  /* border: 1px solid red */
+  border: 1px solid red
 }
 
 .history-title {
@@ -324,7 +384,7 @@ body {
   z-index: 2;
   top: 38.943%;
   left: 22.52%;
-  /* bottom: 29.607%; */
+  bottom: 29.607%;
   max-width: 54.4%;
   max-height: 68.2666%;
 }
@@ -463,7 +523,7 @@ body {
   width: 100%;
   height: auto;
   opacity: 0.53;
-}
+} */ 
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -472,10 +532,35 @@ html{
 html, body{
   box-sizing: border-box;
 }
-
+a{
+  color:white;
+}
+a:hover{
+  color:gray;
+}
 /* --------------END HISTORY SECTION------------ */
 
 @media (max-width: 600px)  {
+  .history-title {
+   left: 5.06%;
+  }
+  .history-image {
+    opacity: 0.43;
+    /* border: 1px solid white; */
+  }
+
+  .bar-text-div {
+    z-index:2;
+    top: 12.45%;
+   /* left: -28%; */
+    
+  }
+
+  .bar-text {
+    position: absolute;
+    max-height: 100px;
+    width: 75%;
+  }
   
   .map {
     display: block;
@@ -529,3 +614,44 @@ html, body{
   
 
 }
+@media (min-width: 1000px)  {
+  .bar-text-div {
+   /* display: none; */
+   position: relative;
+   top: 10%;
+   left: 11%;
+   height: 400px;
+  }
+
+  .bar-text {
+    position: absolute;
+    width:35%;
+    top: 5%;
+    max-height: 200px;
+    
+  }
+
+  .history-image {
+    width: 40%;
+    /* opacity: 0.53; */
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .bar-text-div {
+    position: absolute;
+    top: 20%;
+    
+    /* margin-bottom: 100px; */
+    z-index: 2;
+    height: auto;
+  }
+
+  .bar-text {
+    margin-bottom: 100px;
+    width: 75%;
+    max-height: 100px;
+  }
+}
+
+@media (min-width: 375px)
