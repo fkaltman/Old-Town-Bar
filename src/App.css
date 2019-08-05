@@ -223,12 +223,17 @@ body {
   /* max-height: 50%; */
   margin-left: 30px;
   color:white;
-  font-size: 12px;
+  font-size: 20px;
   position: absolute;
+  font-family: SFProText;
   top: 28px;
   right: 66vw; 
   text-align: left;
   max-height: 5%;
+}
+
+.reviews-title {
+  font-family: Baskerville;
 }
 
 .contact-page {
@@ -321,209 +326,7 @@ img {
   color:white;
 }
 
-/* .history-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-  border: 1px solid red
-}
 
-.history-title {
-  position: absolute;
-  z-index: 1;
-  top: 1.726%;
-  left: 5.06666%;
-  width: 17.8666%;
-  height: 21px;
-  font-family: Baskerville;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.18px;
-  color: white;
-}
-
-.bar-text {
-  position: absolute;
-  z-index: 1;
-  top: 12.947%;
-  left: 8%;
-  width: 84.26666%;
-  min-width: 316px;
-  height: 72.75%;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.store-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-}
-
-.profile-image {
-  position: absolute;
-  z-index: 2;
-  top: 38.943%;
-  left: 22.52%;
-  bottom: 29.607%;
-  max-width: 54.4%;
-  max-height: 68.2666%;
-}
-
-.our-founder-text {
-  z-index: 2;
-  position: absolute;
-  top: 13.02%;
-  left: 8.31%;
-  min-width: 84.2666%;
-  max-width: 84.2666%;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-}
-
-.dining-room {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-}
-
-.literary-history-text {
-  min-height: 636px;
-  min-width: 316px;
-  height: 78.13%;
-  width: 84.26%;
-  z-index: 2;
-  top: 15.498%;
-  left: 8%;
-  position: absolute;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-}
-
-.blank-space {
-  min-height: 814px;
-  background-color: black;
-}
-
-.old-town-open {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-}
-
-.media-appearances-text {
-  position: absolute;
-  height: 62.407%;
-  width: 84.2666%;
-  min-height: 508px;
-  min-width: 316px;
-  left: 8%;
-  top:13.02%;
-  bottom:24.447%;
-  z-index: 2;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-
-}
-
-.upstairs-text{
-  position: absolute;
-  z-index:2;
-  top:13.144%;
-  left: 8%;
-  width:84.266%;
-  min-width: 316px;
-  height: 33.04%;
-  min-height: 269px;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-}
-
-.upstairs-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-}
-
-.new-york-text {
-  position: absolute;
-  z-index: 2;
-  min-width: 316px;
-  width: 84.266%;
-  min-height: 636px;
-  height:78.13%;
-  top: 12.899%;
-  left:8%;
-  font-family: SFProText;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: 0.14px;
-  color: white;
-}
-
-.new-york-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.53;
-} */ 
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -550,7 +353,7 @@ a:hover{
   }
 
   .bar-text-div {
-    z-index:2;
+    z-index:1;
     top: 12.45%;
    /* left: -28%; */
     
@@ -652,6 +455,10 @@ a:hover{
     width: 75%;
     max-height: 100px;
   }
+
+  .history-image {
+    opacity: 0.53;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 600px) {
@@ -679,5 +486,11 @@ a:hover{
   .bar-text {
     max-height: 75px;
 
+  }
+}
+
+@media (min-wisth: 600pc) {
+  history-image {
+    opacity: 0.53
   }
 }
