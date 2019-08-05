@@ -170,8 +170,12 @@ body {
   position: absolute;
   top: 20.5%;
   left: 11%;
-  width:100%;
+  width:80%;
   background-color: #070503;
+}
+
+img {
+  width: 100%;
 }
 
 .bar-text {
@@ -408,14 +412,21 @@ a:hover{
    left: 5.06%;
   }
   .history-image {
-    opacity: 0.53;
-    border: 1px solid white;
+    opacity: 0.43;
+    /* border: 1px solid white; */
   }
 
   .bar-text-div {
+    z-index:2;
     top: 12.45%;
-   left: -28%;
+   /* left: -28%; */
     
+  }
+
+  .bar-text {
+    position: absolute;
+    max-height: 100px;
+    width: 75%;
   }
   
   .map {
@@ -435,30 +446,44 @@ a:hover{
 
 }
 
-@media (min-width: 1000px) and (max-width: 1440px) {
+@media (min-width: 1000px)  {
   .bar-text-div {
    /* display: none; */
-   top: 20%;
+   position: relative;
+   top: 10%;
    left: 11%;
- 
+   height: 400px;
   }
 
   .bar-text {
+    position: absolute;
     width:35%;
-    top: 20%;
-    height: 400px;
+    top: 5%;
+    max-height: 200px;
     
   }
 
   .history-image {
-    width: auto;
+    width: 40%;
     /* opacity: 0.53; */
   }
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .bar-text-div {
-    margin-left: 50px;
+    position: absolute;
+    top: 20%;
+    
+    /* margin-bottom: 100px; */
     z-index: 2;
+    height: auto;
+  }
+
+  .bar-text {
+    margin-bottom: 100px;
+    width: 75%;
+    max-height: 100px;
   }
 }
+
+@media (min-width: 375px)
