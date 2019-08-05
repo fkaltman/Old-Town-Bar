@@ -149,6 +149,9 @@ a:hover{
 .heroimg{
   width: 100%;
   height: 80vh;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
 }
 
 .link-container {
