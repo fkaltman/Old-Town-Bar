@@ -7,8 +7,8 @@ function Reviews() {
       {/* <a href="reviews-scroll"></a> */}
       <img className="reviewsimg" src={barinside} alt="bar"/>
       <div className="reviewstext">
-      <h4>Reviews</h4>
-      <p>“The old-fashioned saloon still serves a noble function in the national life. Manhattan is blessed with some fine ones, but the jewel in the crown is The Old Town.”
+      <h4 className="reviewstitle">Reviews</h4>
+      <p className="reviewsp">“The old-fashioned saloon still serves a noble function in the national life. Manhattan is blessed with some fine ones, but the jewel in the crown is The Old Town.”
       <br></br>
       - New York Times 
       <br></br>
