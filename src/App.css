@@ -242,13 +242,13 @@ body {
 }
 .reviewstext > p {
   font-family: SFProText;
-  font-size: 1.6em;
+  font-size: 1em;
   margin: 100px 45px;
   letter-spacing: 1.31px;
 }
 .reviewstext > h4 {
   font-family: SFProText;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0 30px;
 }
 
