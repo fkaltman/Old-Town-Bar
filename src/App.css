@@ -637,7 +637,9 @@ a:hover{
     margin: 7px 18px -50px 0px;
   }
   
-
+  .contact-page{
+    position: absolute;
+  }
 }
 @media (min-width: 1000px)  {
   .bar-text-div {
