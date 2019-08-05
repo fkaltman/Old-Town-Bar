@@ -590,6 +590,10 @@ a:hover{
     max-height: 100px;
     width: 75%;
   }
+
+  .bar-text-title {
+    display: none;
+  }
   
   .map {
     display: block;
@@ -682,9 +686,18 @@ a:hover{
   }
 
   .bar-text {
+    top: 10%;
     margin-bottom: 100px;
     width: 75%;
     max-height: 100px;
+  }
+
+  .bar-text-title {
+    display: none;
+  }
+
+  .history-image {
+    opacity: 0.53;
   }
 }
 

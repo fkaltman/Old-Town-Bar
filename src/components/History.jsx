@@ -136,7 +136,7 @@ function History() {
       <span className="history-title">History</span>
       <div className = 'bar-text-div'>
         {" "}
-        <span className="bar-text"><strong>BAR HISTORY</strong>
+        <span className="bar-text"><strong className = 'bar-text-title'>BAR HISTORY</strong>
         <br />
         <br />
         The Old Town has been serving since 1892. Interestingly, a twin bar was
